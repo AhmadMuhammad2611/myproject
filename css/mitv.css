@@ -1,0 +1,74 @@
+.nav .container ul li:nth-of-type(2) a:first-of-type {
+    background-color: #3838e0;
+}
+
+/*********** Collection Of Photoes ************/
+
+.imgs .container {
+    padding: 25px 0;
+}
+
+.imgs .container .img-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.imgs .container .img-flex .img-one {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: round;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imgs .container .img-flex:first-of-type .img-one:first-of-type {
+    background-image: url(../img/tv1.jpg);
+}
+
+.imgs .container .img-flex:first-of-type .img-one:nth-of-type(2) {
+    background-image: url(../img/tv2.jpg);
+}
+
+.imgs .container .img-flex:first-of-type .img-one:nth-of-type(3) {
+    background-image: url(../img/tv3.jpg);
+}
+
+.imgs .container .img-flex:first-of-type .img-one:last-of-type {
+    background-image: url(../img/tv4.jpg);
+}
+
+.imgs .container .img-flex:last-of-type .img-one:first-of-type {
+    background-image: url(../img/tv4.jpg);
+}
+
+.imgs .container .img-flex:last-of-type .img-one:nth-of-type(2) {
+    background-image: url(../img/tv3.jpg);
+}
+
+.imgs .container .img-flex:last-of-type .img-one:nth-of-type(3) {
+    background-image: url(../img/tv2.jpg);
+}
+
+.imgs .container .img-flex:last-of-type .img-one:last-of-type {
+    background-image: url(../img/tv1.jpg);
+}
+
+.imgs .container button {
+    padding: 20px 10px;
+    margin-top: 35px;
+    background-color: #3838e0;
+    color: #EEE;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.imgs .container button:hover {
+    background-color: #EEE;
+    color: #3838e0;
+}

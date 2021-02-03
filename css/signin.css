@@ -1,0 +1,59 @@
+.nav .container ul li:nth-of-type(4) a:first-of-type {
+    background-color: #3838e0;
+}
+
+/*********** Start The Contact ************/
+
+.contact .container {
+    padding: 50px 0;
+}
+
+.contact .container h2 {
+    text-align: center;
+    font-size: 38px;
+    color: #ef7600;
+    background-color: #121212;
+    padding: 20px 0;
+    margin-bottom: 28px;
+    border-radius: 8px;
+}
+
+.contact .container form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact .container form input {
+    width: 80%;
+    height: 45px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: solid 2px #1a2a3a;
+    border-radius: 10px;
+}
+
+.contact .container form label {
+    display: block;
+    color: #121212;
+    font-size: 28px;
+}
+
+.contact .container form input[type="submit"] {
+    margin-top: 10px;
+    width: 25%;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #3838e0;
+    border: solid 1px #3838e0;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contact .container form input[type="submit"]:hover {
+    background-color: #ef7600;
+    border: solid 1px #ef7600;
+}

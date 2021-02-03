@@ -1,0 +1,491 @@
+/******** Style css ***********/
+/* Start Our Framework */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', cursive;
+    font-weight: bold;
+}
+
+.overlay {
+    background: rgba(49, 55, 61, .9);
+    width: 100%;
+    height: 100%
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center
+}
+
+.h1 {
+    font-size: 30px;
+    font-weight: bold
+}
+
+.upper {
+    -webkit-text-transform: uppercase;
+    -moz-text-transform: uppercase;
+    -ms-text-transform: uppercase;
+    -o-text-transform: uppercase;
+    text-transform: uppercase
+}
+
+.main-color {
+    color: #3838e0
+}
+
+.hidden {
+    display: none
+}
+
+.clear-fix {
+    clear: both
+}
+
+/* End Our Framework */
+/*************** Start NavBar **************/
+
+.nav {
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .container .imglogo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.nav .container .imglogo img {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    transition: .5s;
+}
+
+.nav .container .imglogo:hover img {
+    left: 0px;
+}
+
+.nav .container ul {
+    list-style: none;
+}
+
+.nav .container ul li {
+    display: inline-block;
+}
+
+.nav .container ul li a {
+    display: block;
+    padding: 20px;
+    color: #EEE;
+    text-decoration: none;
+}
+
+.nav .container ul li a:hover {
+    background-color: #3838e0;
+}
+
+/*************** End NavBar **************/
+
+.header {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: round;
+    height: 80vh;
+}
+
+.header .overlay {
+    background: rgba(49, 55, 61, .2);
+}
+
+.header .container {
+    padding: 80px 0;
+}
+
+.header .container i {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    top: 50%;
+    line-height: 40px;
+    font-size: 24px;
+    border: 5px solid #121212;
+    color: #121212;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.header .container .fa-chevron-right {
+    right: 2%;
+}
+
+.header .container .fa-chevron-right:hover {
+    right: 1%;
+}
+
+.header .container .fa-chevron-left {
+    left: 2%;
+}
+
+.header .container .fa-chevron-left:hover {
+    left: 1%;
+}
+
+/************** Start The features **************/
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.features .container div {
+    width: 30%;
+    height: 200px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.features .container div:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.features .container .features-one {
+    background-image: url(../img/mi-10t-lite-smallbanner.jpg);
+}
+
+.features .container .features-two {
+    background-image: url(../img/poco-x3-small-banner.jpg);
+}
+
+.features .container .features-three {
+    background-image: url(../img/redmi9-small-banner.jpg);
+}
+
+/************** End The features **************/
+/************** Start The Products ************/
+
+.products .container {
+    padding: 25px 0;
+}
+
+.products .container h2 {
+    color: #666;
+    position: relative;
+}
+
+.products .container h2:before,
+.products .container h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    background-color: #666;
+}
+
+.products .container h2:before {
+    right: 0%;
+}
+
+.products .container h2:after {
+    left: 0%;
+}
+
+.products .container .pro-padding {
+    padding: 40px 0;
+}
+
+.products .container .product-one {
+    width: 49%;
+    height: 555px;
+    float: left;
+    background-image: url(../img/TWS-2Basic-left1.jpg);
+    background-size: cover;
+    background-repeat: round;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products .container .product-one:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.products .container .product-two {
+    width: 49%;
+    height: 555px;
+    float: right;
+}
+
+.products .container .product-two .smart-band {
+    width: 49%;
+    height: 49%;
+    float: left;
+    background-image: url(../img/PC-_14.jpg);
+    background-size: cover;
+    background-repeat: round;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products .container .product-two .smart-band:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.products .container .product-two .air-pure {
+    width: 49%;
+    height: 49%;
+    float: right;
+    background-image: url(../img/purifier-3C-right-2.jpg);
+    background-size: cover;
+    background-repeat: round;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products .container .product-two .air-pure:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.products .container .product-two .mi-tv {
+    width: 100%;
+    height: 49%;
+    margin-top: 2%;
+    background-image: url(../img/tv55-right-3.jpg);
+    background-size: cover;
+    background-repeat: round;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products .container .product-two .mi-tv:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+/************** End The Products ************/
+/************** Start The Videos ************/
+
+.videos .container {
+    padding: 25px 0;
+}
+
+.videos .container h2 {
+    color: #666;
+    position: relative;
+}
+
+.videos .container h2:before,
+.videos .container h2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 2px;
+    background-color: #666;
+}
+
+.videos .container h2:before {
+    right: 0%;
+}
+
+.videos .container h2:after {
+    left: 0%;
+}
+
+.videos .container .vid-padding {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.videos .container .vid-padding div {
+    width: 32%;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.videos .container .vid-padding div:hover {
+    box-shadow: 2px 2px 14px #121212;
+}
+
+.videos .container .vid-padding .vid1 {
+    background-image: url(../img/j20c-video-null.jpg);
+    background-size: cover;
+}
+
+.videos .container .vid-padding .vid2 {
+    background-image: url(../img/redminote8-video.jpg);
+    background-size: cover;
+}
+
+.videos .container .vid-padding .vid3 {
+    background-image: url(../img/smartlife.jpg);
+    background-size: cover;
+}
+
+.videos .container .vid-padding i {
+    color: #eee;
+    font-size: 38px;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238, 0.2);
+    transition: .5s;
+}
+
+.videos .container .vid-padding div:hover i {
+    background-color: rgb(238, 238, 238, .5);
+}
+
+/************** End The Videos ************/
+/************** Start The Footer **********/
+
+.footer {
+    background-color: #121212;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container ul {
+    list-style: none;
+}
+
+.footer .container ul li {
+    display: inline-block;
+}
+
+.footer .container ul li span,
+.footer .container ul li a {
+    display: block;
+    padding: 18px;
+    color: #EEE;
+    text-decoration: none;
+}
+
+.footer .container ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .container ul li a .fa-facebook:hover {
+    color: #5d61e2;
+}
+
+.footer .container ul li a .fa-twitter:hover {
+    color: #25b5e0;
+}
+
+.footer .container ul li a .fa-google:hover {
+    color: #f00;
+}
+
+/************** End The Footer ************/
+
+
+/*********** Media Query ***************/
+
+@media (max-width: 780px) {
+    .nav .container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .features .container {
+        flex-direction: column;
+    }
+    .features .container div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .products .container h2:before,
+    .products .container h2:after {
+        display: none;
+    }
+    
+    .products .container .product-one,
+    .products .container .product-two {
+        float: none !important;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .videos .container h2:before,
+    .videos .container h2:after {
+        display: none;
+    }
+    
+    .videos .container .vid-padding {
+        flex-direction: column;
+    }
+    
+    .videos .container .vid-padding div {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .footer .container {
+        flex-direction: column;
+    }
+    
+    .footer .container ul:last-of-type li:first-of-type {
+        display: block !important;
+    }
+    
+    .imgs .container .img-flex {
+        flex-direction: column;
+    }
+    
+    .imgs .container .img-flex .img-one {
+        width: 80% !important;
+        margin-bottom: 20px;
+    }
+}
+
+/*********** Media Query ***************/
