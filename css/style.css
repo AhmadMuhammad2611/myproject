@@ -77,6 +77,12 @@ body {
     align-items: center;
 }
 
+.nav .container h2 {
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
 .nav .container .imglogo {
     width: 50px;
     height: 50px;
@@ -431,6 +437,15 @@ body {
 /*********** Media Query ***************/
 
 @media (max-width: 780px) {
+    
+    .nav .container h2 {
+        display: block;
+    }
+    
+    .nav .container .imglogo {
+        display: none;
+    }
+    
     .features .container {
         flex-direction: column;
     }
