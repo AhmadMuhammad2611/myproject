@@ -48,6 +48,11 @@ var timer = setInterval(function () {
 
 /**************** open products *********/
 
+function openHome() {
+    "use strict";
+    window.open("index.html", "_self", "");
+}
+
 function openPhones() {
     "use strict";
     window.open("miphone.html", "_self", "");

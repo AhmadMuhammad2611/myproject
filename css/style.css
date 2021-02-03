@@ -14,7 +14,6 @@
 body {
     margin: 0;
     font-family: 'Arial', cursive;
-    font-weight: bold;
 }
 
 .overlay {
@@ -111,6 +110,7 @@ body {
     display: block;
     padding: 20px;
     color: #EEE;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -431,11 +431,6 @@ body {
 /*********** Media Query ***************/
 
 @media (max-width: 780px) {
-    .nav .container {
-        flex-direction: column;
-        padding: 20px 0;
-    }
-    
     .features .container {
         flex-direction: column;
     }
