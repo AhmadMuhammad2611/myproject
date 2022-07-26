@@ -2,8 +2,6 @@
 ITI task for eng.Asmaa
 
 
-# xaomi clone
-
 <!-- PROFILE PHOTO -->
 <br />
 <div align="center">
