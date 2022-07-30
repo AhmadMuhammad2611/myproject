@@ -72,7 +72,7 @@ function openContact() {
 
 document.getElementById("vid1").onclick = function () {
     "use strict";
-    window.open("https://youtu.be/-nRqVdHYUZ0", "_blank", "");
+    window.open("https://youtu.be/K9_g6_fqVBc", "_blank", "");
 }
 
 document.getElementById("vid2").onclick = function () {
@@ -82,5 +82,5 @@ document.getElementById("vid2").onclick = function () {
 
 document.getElementById("vid3").onclick = function () {
     "use strict";
-    window.open("https://youtu.be/ADCPxT__ng4", "_blank", "");
+    window.open("https://youtu.be/K9_g6_fqVBc", "_blank", "");
 }
